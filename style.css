@@ -1,0 +1,114 @@
+/*
+ Theme Name:   Twenty Twenty UNED
+ Theme URI:    http://example.com/twenty-fifteen-uned/
+ Description:  Twenty Twenty Child Theme
+ Author:       UNED
+ Author URI:   http://example.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentyuned
+*/
+
+@import url("https://use.typekit.net/tqm5qpb.css");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+.site-title {
+  font-family: futura-pt, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2.3rem;
+}
+@media (min-width: 700px) {
+  .site-title {
+    font-size: 3rem;
+  }
+}
+
+.site-description {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6,
+.entry-content cite,
+.entry-content figcaption,
+.entry-content table,
+.entry-content address,
+.entry-content .wp-caption-text,
+.entry-content .wp-block-file {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3 {
+  font-weight: 600;
+}
+
+.primary-menu,
+.modal-menu,
+.footer-menu,
+.entry-categories,
+.post-meta,
+.nav-links,
+button.toggle,
+.wp-caption-text,
+.intro-text,
+.logged-in-as,
+.comment-form-comment {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.entry-content {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+/* Footer */
+
+.footer-uned {
+  background: rgb(21, 40, 75) !important;
+  color: #fff;
+  font-family: futura-pt-condensed, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.footer-uned .footer-credits {
+  align-items: center;
+}
+.uned-link {
+  align-self: center;
+  margin-right: 1.5em;
+}
+.uned-svg {
+  height: 72px;
+}
+
+.footer-uned .to-the-top {
+  color: rgb(204, 204, 204);
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+}
