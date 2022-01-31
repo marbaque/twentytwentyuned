@@ -5,7 +5,7 @@
  Author:       UNED
  Author URI:   http://example.com
  Template:     twentytwenty
- Version:      1.0.0
+ Version:      1.0.1
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
@@ -14,33 +14,28 @@
 
 @import url("https://use.typekit.net/tqm5qpb.css");
 
+body {
+  font-family: futura-pt, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.01em;
+}
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  font-family: futura-pt, sans-serif;
   font-weight: 600;
-  font-style: normal;
   letter-spacing: 0.01em;
 }
 .site-title {
-  font-family: futura-pt, sans-serif;
-  font-weight: 600;
-  font-style: normal;
   font-size: 2.3rem;
 }
 @media (min-width: 700px) {
   .site-title {
     font-size: 3rem;
   }
-}
-
-.site-description {
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .entry-content h1,
@@ -67,22 +62,6 @@ h6 {
   font-weight: 600;
 }
 
-.primary-menu,
-.modal-menu,
-.footer-menu,
-.entry-categories,
-.post-meta,
-.nav-links,
-button.toggle,
-.wp-caption-text,
-.intro-text,
-.logged-in-as,
-.comment-form-comment {
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
 .entry-content {
   font-family: Helvetica, Arial, sans-serif;
 }
@@ -92,9 +71,6 @@ button.toggle,
 .footer-uned {
   background: rgb(21, 40, 75) !important;
   color: #fff;
-  font-family: futura-pt-condensed, sans-serif;
-  font-weight: 400;
-  font-style: normal;
 }
 .footer-uned .footer-credits {
   align-items: center;
@@ -109,6 +85,4 @@ button.toggle,
 
 .footer-uned .to-the-top {
   color: rgb(204, 204, 204);
-  font-family: futura-pt, sans-serif;
-  font-weight: 400;
 }
