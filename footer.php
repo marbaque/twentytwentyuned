@@ -27,7 +27,7 @@
 								_x( 'Y', 'copyright date format', 'twentytwentyuned' )
 							);
 							?>
-							<a href="<?php echo esc_url( home_url( '/' ) ); ?>"><?php bloginfo( 'name' ); ?></a>
+							<a href="https://uned.ac.cr/">Universidad Estatal a Distancia</a>
 						</p><!-- .footer-copyright -->
 
 						<?php
